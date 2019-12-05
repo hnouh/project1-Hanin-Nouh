@@ -1,0 +1,58 @@
+body{
+	background-image:url("43313.jpg");
+}
+
+p{
+color:white;	
+font-size:50px;
+text-align:center;
+}
+
+.board{
+  display: flex;
+  border: 1px solid black;
+  padding: 5px;
+  border-spacing: 15px;
+  background-color:#F4F3F4;
+  margin: auto;
+  width:420px;
+  }
+
+.c1,.c2,.c3,.c4 {
+  background-color:white;
+  width: 100px;
+  height: 100px;
+  border: solid black;
+  margin: auto;  
+  transition: 0.5s all;
+  border-radius: 300px;
+}
+
+
+.yellow {
+  background-color: #C2D3DA;
+}
+
+.red {
+  background-color: #D50B53;
+}
+
+
+.button-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.btn {
+  display: block;
+  height: 50px;
+  width: 186px;
+  overflow: hidden;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: black;
+  font-size: 14px;
+}
